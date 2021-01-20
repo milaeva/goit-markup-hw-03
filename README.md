@@ -7,4 +7,4 @@
 
 На размеченных страницах Студия и Портфолио добавила стилизацию.
 
-[Ссылка на живую страницу GitHub-репозитория.](https://milaeva.github.io/goit-markup-hw-02/index.html)
+[Ссылка на живую страницу GitHub-репозитория.](https://milaeva.github.io/goit-markup-hw-03/index.html)
