@@ -8,6 +8,7 @@
   --team-background-color: #f5f4fa;  
   --footer-email-tel: rgba(255, 255, 255, 0.6);
   --header-border: #ececec;
+  --portfolio-border: #eeeeee;
 }
 /*----------COMPONENTS----------*/
 body{
@@ -28,6 +29,9 @@ address{
 }
 header {
   border-bottom: 1px solid var(--header-border);
+}
+img{
+  display: block;
 }
 
 .visually-hidden {
@@ -255,7 +259,7 @@ header {
 .logo-white{
   color: var(--title-color);
 }
-.footer-studio,
+
 .footer-address {
   color: var(--title-color);
 }
@@ -270,6 +274,7 @@ header {
 }
 /*----------Page Portfolio.html----------*/
 .buttons {
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -289,10 +294,45 @@ header {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
+  margin-top: 0;
 }
 
 .portfolio-text {
   font-size: 16px;
   line-height: 1.9;
   color: var(--nav-contact-color);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navigation-projects{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.projects-filter{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+
+.projects-list:not(:last-child) {
+  margin-right: 8px;
+}
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-element {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: calc((100% - (2 * 30px)) / 3);
+  outline: 1px solid var(--portfolio-border);
+}
+.portfolio-element:nth-child(3n) {
+  margin-right: 0;
+}
+.portfolio-cards{
+  text-align: left;
+  padding: 20px 24px;
 }
